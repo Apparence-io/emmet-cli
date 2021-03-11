@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:emmet/emmet.dart';
 
-Future generateHtmlTests() async {
+Future generateHtmlTests({String path}) async {
   var testParser = TestParser();
   var htmlGenerator = HtmlGenerator();
 
-  var testFiles = testParser.parseFolder('./test');
+  var testFiles = testParser.parseFolder(path ?? './test');
   testFiles.forEach((element) async {
     print('=> ${element.path}');
     print('   nb tests: ${element.tests.length}');
