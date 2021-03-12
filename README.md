@@ -4,9 +4,7 @@ Emmet is a command-line application to generate a recap documentation from flutt
 
 Developed with 💙 by Apparence.io
 
-Generate reports from all test files in a dart/flutter projects
-
-[![pub package][pub_badge]][pub_link]
+**Generate reports from all test files in a dart/flutter projects**
 
 ### Index 
 All your tests files with numbers of tests
