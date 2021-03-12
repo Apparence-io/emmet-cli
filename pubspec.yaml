@@ -1,6 +1,6 @@
 name: emmetcli
 description: A command-line application to generate a recap documentation from flutter/dart test projects. 
-version: 1.0.0+6
+version: 1.0.0+7
 author: Apparence.io
 homepage: https://github.com/Apparence-io/emmet-cli
 
